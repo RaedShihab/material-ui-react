@@ -1,14 +1,11 @@
 import React from 'react';
 import './App.css';
-import NavBar from './component/navBar';
+import {Header, Footer} from './components/layouts';
 
-
-
-
-function App() {
+function App(props) {
   return (
       <div>
-        <NavBar />
+      <Header />
       </div>
   );
 }
